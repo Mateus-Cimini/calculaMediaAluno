@@ -4,8 +4,8 @@ const inputNotaAtividade = document.getElementById('nota-Atividade');
 
 const spanAprovado = `<span class="resultado aprovado">Aprovado</span>`
 const spanReprovado = `<span class="resultado reprovado">Reprovado</span>`
-const imgAprovado = `<img src="/doc/aprovado.png" alt="emoji-aprovado"></img>`
-const imgReprovado = `<img src="/doc/reprovado.png" alt="emoji-reprovado"></img>`
+const imgAprovado = `<img src="doc/aprovado.png" alt="emoji-aprovado"></img>`
+const imgReprovado = `<img src="doc/reprovado.png" alt="emoji-reprovado"></img>`
 
 const notaMinima = parseFloat(prompt('Digite a nota minima para ser aprovado '))
 const atividades = []
