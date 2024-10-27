@@ -96,3 +96,42 @@ table td img {
 .reprovado {
     background-color: red;
 }
+
+/* Estilos para dispositivos móveis com largura máxima de 450px */
+@media (max-width: 450px) {
+
+    header h1 {
+        font-size: 28px; /* Reduz um pouco mais o tamanho da fonte */
+        margin-top: 8px;
+    }
+
+    .container {
+        padding: 0 12px; /* Diminui o padding nas laterais */
+    }
+
+    form {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    form input {
+        font-size: 16px; /* Tamanho de fonte menor */
+        margin-bottom: 8px;
+        padding: 6px; /* Diminui o padding */
+    }
+
+    form button {
+        font-size: 16px;
+        padding: 10px; /* Ajusta o padding do botão */
+    }
+
+    table th, table td {
+        font-size: 12px; /* Tamanho menor para texto da tabela */
+        padding: 8px 4px; /* Diminui o padding para caber na tela */
+    }
+
+    .resultado {
+        font-size: 12px; /* Ajuste para manter a legibilidade */
+        padding: 5px;
+    }
+}
